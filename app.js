@@ -10,7 +10,7 @@ function addGuest(e){
        input.value = '';
        const li = createLi(text)
        ul.appendChild(li);
-			console.log(li);
+	   console.log(li);
      }
 
 }
@@ -59,6 +59,7 @@ ul.addEventListener('change', (e) => {
       }    
   }
 })
+
 
 ul.addEventListener('click', (e) => {
     if(e.target.tagName === 'BUTTON') {
