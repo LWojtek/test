@@ -76,7 +76,7 @@ ul.addEventListener('click', (e) => {
 			li.insertBefore(input, span);
 			li.removeChild(span);
 			button.textContent = 'Save';
-		} else if (button.textContent === 'Save') {
+		} else if (button.textContent === 'Save') {  // <<<< ---------- tu jest problem
 			const input = li.firstElementChild;	
 			const span = document.createElement('span');
 			span.textContent = input.value;	
